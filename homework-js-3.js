@@ -1,7 +1,6 @@
-
 function test () {
     for (var i = 0;  i < arguments.length;  i++) {
-        console.log(test, arguments[i])
+        console.log(arguments.callee.name, arguments[i])
     }
 }
 
