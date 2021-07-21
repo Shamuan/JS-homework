@@ -1,3 +1,5 @@
+// task 2
+
 var group = [
     {
       name: "Vasya",
@@ -25,3 +27,17 @@ function addNewStudent (Name, LastName, Age, Notebook) {
 }
 
 addNewStudent ('Ivan', 'Krilov', 34, true)
+
+
+// task 5
+
+var names = ["Сергей", "Жора", "Михаил"]
+var lastNames = ["Коломенцев", "Григорович", "Солонина"]
+var newArray = []
+
+function getFullName () {
+  for(var i = 0; i < names.length && lastNames.length; i++) {
+    newArray.push(names[i] + ' ' + lastNames[i])
+  }
+  return newArray
+}
