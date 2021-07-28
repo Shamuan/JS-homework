@@ -11,7 +11,7 @@ var newGroup = []
 function getStudentsList (arrayOfStudents) {
   for (var student of arrayOfStudents) {
     console.log (`${student.name} ${student.lastName} ${student.age} ${student.notebook}`),
-    newGroup.push(`${student.name} ${student.lastName} ${student.age} ${student.notebook}`)
+    newGroup.push(`${student.name} ${student.lastName}, ${student.age}, ${student.notebook}`)
   }
   return newGroup
 }
