@@ -1,3 +1,5 @@
+// task 1
+
 var letters = []
 var str = 'Backend As A Service'
 
@@ -9,7 +11,8 @@ console.log(letters)
 var joinLetters = letters.join('')
 
 console.log(joinLetters)
-// 
+
+// task 2
 
 function test(a) {
 
