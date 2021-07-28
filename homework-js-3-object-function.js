@@ -1,7 +1,5 @@
 function test () {
-    for (var i = 0;  i < arguments.length;  i++) {
-        console.log(arguments.callee.name, arguments[i])
-    }
+  return arguments ? arguments : arguments.callee
 }
 
-test (10,  false, 'google')
+test(10, false, "google")
