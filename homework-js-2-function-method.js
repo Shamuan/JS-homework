@@ -4,7 +4,7 @@ var letters = []
 var str = 'Backend As A Service'
 
 var str = str.split(' ')
-str.forEach (str => letters.push(str[0].toUpperCase()))
+str.forEach (str => letters.push(str[0]))
 
 console.log(letters)
 
