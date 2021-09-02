@@ -31,6 +31,20 @@ function addNewStudent (Name, LastName, Age, Notebook) {
 
 addNewStudent ('Ivan', 'Krilov', 34, true)
 
+// task 4
+
+function removeSymbols(str) {
+  var array = str.split('')
+  for (let i = 0; i < array.length; i++) {
+    var element = array[i];
+
+    if (element.charCodeAt() < 1040 || element.charCodeAt() > 1103) {
+       delete array[i]
+    }
+  }
+  return array.join('')
+}
+
 
 // task 5
 
